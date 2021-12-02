@@ -1,0 +1,10 @@
+count  = 0
+inputs = inputs_file.to_array
+
+for e in inputs:
+	if index_of(e) == 0
+		next
+	else if e > inputs(index_of(e-1))
+		count +=1
+
+return count
