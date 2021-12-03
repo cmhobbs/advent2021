@@ -1,0 +1,16 @@
+inputs = fancy_file_reader(inputs.txt) # end up with ['forward', '2', 'down', '3', ...]
+
+for i in inputs {
+	if i % 3 == 0 # if we have an odd number here (remember index 0, though)
+
+}
+
+# loop through the inputs
+# if input is forward, down, up, add it to direction array
+# if input is anything else, coerce it to an integer and add it to distance array
+# step through input array
+# 	if input is forward, increment horizontal counter by distance[i]
+#   if input is down, increment depth counter by distance[i]
+#   if input is up, decrement depth counter by distance[i]
+# multiply depth and horizontal counters
+# return result
