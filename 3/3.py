@@ -30,7 +30,7 @@ epsilon_idx = [] # least common
 # column) and record them in gamma/epsilon based
 # on frequency	
 for row in transposed_inputs:
-	freq_1   = row.count(1)
+	freq_1 = row.count(1)
 	freq_0 = row.count(0)
 
 	if freq_1 > freq_0:
